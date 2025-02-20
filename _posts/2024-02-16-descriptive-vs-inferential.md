@@ -1,7 +1,8 @@
 
 **Descriptive vs. Inferential Statistics: What’s the Difference?**
 
-![Descriptive Alt Text]({{ site.baseurl }}/assets/images/image1.jpg)
+<img src="{{ site.baseurl }}/assets/images/myimage.jpg" alt="Descriptive Alt Text" width="300">
+
 
 ### Introduction
 
