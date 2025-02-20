@@ -1,6 +1,8 @@
 
 **Descriptive vs. Inferential Statistics: What’s the Difference?**
 
+![Descriptive Alt Text]({{ site.baseurl }}/assets/images/image1.jpg)
+
 ### Introduction
 
 Numbers surround us every day—from averages in weather reports to percentages in election polls. Descriptive statistics summarize data and give us a snapshot (like the mean or a chart), while inferential statistics let us make predictions about a larger group from a small sample. In this article, we’ll clearly break down these two approaches and explain why both matter in understanding data.
