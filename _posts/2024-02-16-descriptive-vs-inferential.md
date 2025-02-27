@@ -33,7 +33,7 @@ Inferential statistics go beyond simply describing data—they allow us to make 
 
 - **Sampling:** Using a small, representative group to make inferences about a larger population.
 - **Confidence Intervals:** Estimating a range where the true population value likely falls.
-- **Hypothesis Testing:** Determining whether a result is statistically significant using p-values.
+- **Hypothesis Testing:** Determining whether a result is statistically significant using a cutoff(e.g.: p-values).
 
 For example, if a company surveys 500 customers to predict satisfaction levels for millions of users, they are using inferential statistics. The goal is to draw conclusions beyond the immediate data and apply findings more broadly.
 
