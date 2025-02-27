@@ -20,6 +20,7 @@ Descriptive statistics provide a simple summary of a data set. They help answer 
 - **Measures of Spread:**  
   - **Range:** The difference between the highest and lowest values.  
   - **Variance and Standard Deviation:** Indicate how spread out the data are.
+  - - **IQR(Inter Quartile Range):** The difference between Q3(third quartile) and Q1(first quartile).  
 
 - **Visual Representations:**  
   - **Charts and Graphs:** Histograms, bar charts, and box plots that help visualize the data.
