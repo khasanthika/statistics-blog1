@@ -1,6 +1,6 @@
 **Probability in Daily Life: Why Your Chances Matter**
 
-<img src="{{ site.baseurl }}/assets/images/image2.webp" alt="Descriptive Alt Text" width="300">
+<img src="{{ site.baseurl }}/assets/images/image2.jpg" alt="Descriptive Alt Text" width="300">
 
 Probability is something we encounter daily, whether we realize it or not. It’s the math behind the uncertainty that shapes so many of our decisions, even in the most mundane moments of our day. At its core, probability is simply a way of quantifying the likelihood of different outcomes. But how does this abstract concept influence our lives? Let's take a closer look at how probability plays a role in daily decisions, using familiar examples like weather forecasts and lottery odds. The definition of probability is the likelihood of a possible outcome with many repetitions of the same activity.
 
