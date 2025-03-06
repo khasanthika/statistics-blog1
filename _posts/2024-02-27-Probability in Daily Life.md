@@ -1,9 +1,3 @@
----
-layout: post
-title: "Your Post Title2"
-date: 2024-02-27
----
-
 **Probability in Daily Life: Why Your Chances Matter**
 
 <img src="{{ site.baseurl }}/assets/images/image2.jpg" alt="Descriptive Alt Text" width="300">
