@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Your Post or Discussion Title3"
+---
+
 **Averages Unwrapped: Mean, Median, and Mode Explained**
 
 <img src="{{ site.baseurl }}/assets/images/image3.jpg" alt="Descriptive Alt Text" width="300">
