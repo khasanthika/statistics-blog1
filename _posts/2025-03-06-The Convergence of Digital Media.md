@@ -1,4 +1,3 @@
-
 **The Convergence of Digital Media: The Future of Research, News, and Blogging**
 
 
