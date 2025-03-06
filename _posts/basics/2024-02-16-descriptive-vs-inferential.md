@@ -1,6 +1,4 @@
 ---
-title: "Descriptive vs. Inferential Statistics: What’s the Difference?"
-date: 2024-02-16
 categories: [basics]
 ---
 
