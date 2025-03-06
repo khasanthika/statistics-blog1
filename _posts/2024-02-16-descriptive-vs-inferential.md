@@ -1,8 +1,3 @@
----
-layout: post
-title: "Your Post Title1"
-date: 2024-02-16
----
 **Descriptive vs. Inferential Statistics: What’s the Difference?**
 
 <img src="{{ site.baseurl }}/assets/images/image1.jpg" alt="Descriptive Alt Text" width="300">
