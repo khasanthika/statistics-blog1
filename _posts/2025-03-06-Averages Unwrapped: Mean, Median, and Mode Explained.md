@@ -1,5 +1,3 @@
-# Averages Unwrapped: Mean, Median, and Mode Explained
-
 When you hear the word “average,” what comes to mind? Most often, we think of a single number that represents a whole data set. But in reality, there are different ways to measure central tendency—each with its own strengths and caveats. In this post, we’ll break down the three main types of averages: the **mean**, **median**, and **mode**. Whether you’re a student, a data enthusiast, or simply curious about how numbers work in everyday life, this guide will help demystify these concepts.
 
 ## Understanding the Averages
