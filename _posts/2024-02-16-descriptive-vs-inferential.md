@@ -1,6 +1,7 @@
 ---
-layout: default
-title: "Your Post or Discussion Title"
+layout: post
+title: "Your Post Title1"
+date: 2024-02-16
 ---
 **Descriptive vs. Inferential Statistics: What’s the Difference?**
 
