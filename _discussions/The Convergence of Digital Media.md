@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The Convergence of Digital Media: The Future of Research, News, and Blogging"
+date: 2025-03-06
 ---
 
 In the past, people relied on newspapers and magazines, then TV and radio, and later on search engines and emails to stay informed. Today, a dramatic digital transformation has reshaped how we access and consume information—and the trends of tomorrow promise even more radical changes. In this article, we explore how research papers, news articles, and blogs are evolving and converging into a dynamic, interactive, and AI-enhanced ecosystem.
