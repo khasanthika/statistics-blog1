@@ -1,6 +1,7 @@
 ---
-layout: default
-title: "Your Post or Discussion Title3"
+layout: post
+title: "Your Post Title3"
+date: 2025-03-06
 ---
 
 **Averages Unwrapped: Mean, Median, and Mode Explained**
