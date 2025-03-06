@@ -1,6 +1,7 @@
 ---
-layout: default
-title: "Your Post or Discussion Title"
+layout: post
+title: "Your Post Title2"
+date: 2024-02-27
 ---
 
 **Probability in Daily Life: Why Your Chances Matter**
