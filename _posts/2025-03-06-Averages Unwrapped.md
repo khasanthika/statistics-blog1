@@ -134,7 +134,7 @@ Averages are more than just numbers—they are powerful tools that can simplify 
 
 ## References
 
-[Link](https://www.statology.org/mean-median-mode-real-life-examples/) provides real-life examples of using these measures, while citeturn0search4 and citeturn0search9 offer coding insights in R and Python respectively.
+[Link1](https://www.statology.org/mean-median-mode-real-life-examples/) provides real-life examples of using these measures, while [Link2](https://www.programiz.com/r/mean-median-mode) and [Link3](https://www.geeksforgeeks.org/finding-mean-median-mode-in-python-without-libraries/) offer coding insights in R and Python respectively.
 
 
 
