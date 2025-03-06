@@ -2,8 +2,3 @@ title: "Understanding Statistics"
 description: "A blog about everything statistics"
 author: "Kalani Hasanthika"
 theme: minima
-
-collections:
-  discussions:
-    output: true
-
