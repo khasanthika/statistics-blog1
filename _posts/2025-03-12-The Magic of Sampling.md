@@ -1,6 +1,6 @@
 # The Magic of Sampling: How Small Data Can Reveal Big Trends
 
-<img src="{{ site.baseurl }}/assets/images/image4.jpg" alt="Descriptive Alt Text" width="300">
+<img src="{{ site.baseurl }}/assets/images/image4.jpg" alt="Descriptive Alt Text" width="500">
 
 In today’s fast-paced world of big data, researchers and decision-makers are often overwhelmed by vast amounts of information. However, with the right approach, even a small, well-chosen sample can provide a window into broader trends. In this article, we explore the art and science of sampling—its importance, how it differs from a census, review various sampling methods, and discuss in depth the advantages, disadvantages, and challenges of each approach.
 
@@ -14,11 +14,9 @@ Sampling is the process of selecting a subset of individuals or data points from
 **What Is a Census?**  
 A census involves collecting data from every member of a population. While a census offers complete data, it is often time-consuming, expensive, and sometimes logistically impossible—especially in today’s digital and global world. Sampling, on the other hand, provides a “good enough” picture that is cost-effective and faster, yet still statistically valid when done properly.
 
-*(For more on the practical benefits of sampling versus a census, see Qualtrics’ guide on sampling methods [citeturn0search7].)*
-
 ---
 
-## Difference Between a Census and Sampling
+### Difference Between a Census and Sampling
 
 Understanding the key differences between a census and sampling is crucial when deciding on a data collection strategy. Here are the main points of contrast:
 
@@ -55,8 +53,6 @@ Imagine trying to understand the preferences of millions of consumers by surveyi
 - **Reveal Trends:** When designed correctly, even small samples can capture the diversity of the larger population, helping to uncover significant patterns and trends.
 
 This concept is especially relevant today when organizations rely on surveys and digital analytics to make data-driven decisions. In an era where every click, like, or purchase generates data, the ability to draw broad insights from a limited subset is more crucial than ever.  
-  
-*(citeturn0search7)*
 
 ---
 
@@ -78,8 +74,6 @@ These methods use random selection so that every member of the population has a 
   - **List Requirement:** Requires a complete list of the entire population, which may be difficult or expensive to obtain.  
   - **Resource Intensive:** Can be time-consuming and costly, particularly for very large populations.
 - **Difficulties & Challenges:** The main challenge is ensuring the list of the full population is accurate and complete. Any gaps can skew the results.
-  
-*(citeturn0search9)*
 
 #### Systematic Sampling
 - **What It Is:** After a random starting point, every nth member of an ordered list is selected.
@@ -150,8 +144,6 @@ These methods do not use random selection and are often used when probability sa
 - **Disadvantages:**  
   - **Subjectivity:** High risk of bias, as the sample is based on the researcher’s subjective judgment.
 - **Difficulties & Challenges:** Generalizability is limited because the sample is not randomly selected; researchers must work hard to justify their selection criteria.
-  
-*(citeturn0search8)*
 
 #### Snowball Sampling
 - **What It Is:** Existing study participants recruit future participants.
@@ -191,8 +183,6 @@ Today’s digital landscape is awash with data, yet not all data is created equa
 
 In this era of rapid data collection and real-time analytics, the magic of sampling is more relevant than ever. It empowers organizations to make sense of complex datasets without getting bogged down by the volume of information.
 
-*(citeturn0search7)*
-
 ---
 
 ## Difficulties and Problems with Sampling Methods
@@ -205,8 +195,6 @@ Each sampling method comes with its own set of challenges. Even with advanced to
 - **Defining Subgroups Accurately:** In stratified sampling, misclassification or poorly defined strata can lead to underrepresentation of key groups.
 - **Homogeneity in Clusters:** Cluster and multistage sampling may produce clusters that are too similar internally, increasing the sampling error.
 - **Subjectivity:** Purposive and judgment sampling depend heavily on the researcher’s expertise, which can introduce subjective bias if not carefully managed.
-
-*(For more details on common sampling problems and techniques to reduce them, see CloudResearch’s guide on sampling pros and cons [citeturn0search5].)*
 
 ---
 
