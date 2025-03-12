@@ -40,8 +40,6 @@ Understanding the key differences between a census and sampling is crucial when 
   - *Census:* Provides a complete snapshot of the population at one point in time.  
   - *Sampling:* Provides estimates that require careful extrapolation, but allows researchers to allocate resources for deeper analysis of each response.
 
-*(For a detailed comparison, check out KeyDifferences.com’s article on the differences between census and sampling [citeturn1search5].)*
-
 ---
 
 ## Why Sampling Matters
