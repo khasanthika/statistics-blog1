@@ -4,7 +4,7 @@
         <figcaption>Generated using DALL.E 3</figcaption>
 </figure>
 
-"I’ve always been curious about how people will stay informed in the future and the ways in which news and information consumption will evolve. To explore this, I asked ChatGPT for insights, and here’s what it came up with."
+*"I’ve always been curious about how people will stay informed in the future and the ways in which news and information consumption will evolve. To explore this, I asked ChatGPT for insights, and here’s what it came up with."*
 
 In the past, people relied on newspapers and magazines, then TV and radio, and later on search engines and emails to stay informed. Today, a dramatic digital transformation has reshaped how we access and consume information—and the trends of tomorrow promise even more radical changes. In this article, we explore how research papers, news articles, and blogs are evolving and converging into a dynamic, interactive, and AI-enhanced ecosystem.
 
