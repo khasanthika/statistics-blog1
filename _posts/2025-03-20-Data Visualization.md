@@ -1,7 +1,3 @@
----
-layout: post
-categories: [Data Visualization, Python]
----
 # Reading Between the Lines: A Beginner’s Guide to Data Visualization
 
 <img src="{{ site.baseurl }}/assets/images/image8.jpg" alt="Descriptive Alt Text" width="500">
