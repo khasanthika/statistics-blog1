@@ -31,12 +31,12 @@ Bar charts represent categorical data with rectangular bars, where the length of
 #### Misleading Bar Chart  
 Consider a bar chart comparing sales figures across regions, where the y-axis starts at 500,000 instead of zero. This truncation exaggerates the differences between regions, making the disparities appear more significant than they actually are.
 
-![Misleading Bar Chart](graphs/misleading_bar_chart.png)  
+![Misleading Bar Chart]({{ site.baseurl }}/assets/images/graphs/misleading_bar_chart.png)  
 
 #### Accurate Bar Chart  
 In contrast, the accurate bar chart starts the y-axis at zero, reflecting the true sales differences between regions. This design ensures the data is presented fairly and accurately, allowing viewers to make proper comparisons.
 
-![Accurate Bar Chart](graphs/nonmisleading_bar_chart.png)  
+![Accurate Bar Chart]({{ site.baseurl }}/assets/images/graphs/nonmisleading_bar_chart.png)  
 
 ---
 
@@ -46,12 +46,12 @@ Line graphs display data points connected by straight lines, illustrating trends
 #### Misleading Line Graph  
 Consider a line graph depicting annual temperatures, where the y-axis ranges from 30°C to 35°C instead of starting from zero. This narrow range exaggerates the temperature variations, making it seem like the changes are much more dramatic than they actually are.
 
-![Misleading Line Graph](graphs/misleading_line_graph.png)  
+![Misleading Line Graph]({{ site.baseurl }}/assets/images/graphs/misleading_line_graph.png)  
 
 #### Accurate Line Graph  
 A more accurate line graph uses a y-axis that includes the full range of temperatures, from zero to the highest value, providing a clearer and more accurate view of temperature trends.
 
-![Accurate Line Graph](graphs/nonmisleading_line_graph.png)  
+![Accurate Line Graph]({{ site.baseurl }}/assets/images/graphs/nonmisleading_line_graph.png)  
 
 ---
 
@@ -61,12 +61,12 @@ Pie charts represent parts of a whole, with each slice corresponding to a catego
 #### Misleading Pie Chart  
 Consider a pie chart representing market share distribution between three companies. The chart uses a 3D effect, making one of the slices (Company A) appear disproportionately large, even though the actual market share is smaller. The 3D effect and exploded slice visually exaggerate Company A's portion, causing misinterpretation of the data.
 
-![Misleading Pie Chart](graphs/misleading_pie_chart.png)  
+![Misleading Pie Chart]({{ site.baseurl }}/assets/images/graphs/misleading_pie_chart.png)  
 
 #### Accurate Pie Chart  
 An accurate pie chart displays the data in a flat design, with no 3D effects or exploded slices. This ensures the proportions of each slice are accurately represented. In this case, the market shares for Company A, B, and C are clearly presented, with the sizes of the slices properly reflecting their actual percentages.
 
-![Accurate Pie Chart](graphs/nonmisleading_pie_chart.png)  
+![Accurate Pie Chart]({{ site.baseurl }}/assets/images/graphs/nonmisleading_pie_chart.png)  
 
 ---
 
@@ -79,7 +79,7 @@ By understanding fundamental chart types bar charts, line graphs, and pie charts
 <details>
   <summary>Click here to view the code used to generate the charts</summary>
 
-```python
+{% highlight bash %}
 # Create a directory for the images if it doesn't exist
 mkdir -p graphs
 
@@ -169,5 +169,5 @@ plt.close()
 EOF
 
 echo "Graphs generated and saved in the 'graphs' directory."
-```
+{% endhighlight %}
 </details>
