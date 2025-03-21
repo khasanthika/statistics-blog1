@@ -80,7 +80,7 @@ By understanding fundamental chart types bar charts, line graphs, and pie charts
 
 <details>
   <summary>Click here to view the code used to generate the charts</summary>
-  ```
+  ```bash
   # Create a directory for the images if it doesn't exist
   mkdir -p graphs
 
