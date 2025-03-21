@@ -73,7 +73,7 @@ In today's digital age, data visualizations are everywhere, embedded in news art
 By understanding fundamental chart types bar charts, line graphs, and pie charts—and recognizing common design flaws, you can critically assess visual data and ensure a more accurate interpretation. Always question whether a chart makes sense, whether the axes and scales are appropriate, and whether any visual distortions might be shaping your perception. Data visualization is an indispensable tool in statistics and decision-making, but its effectiveness depends on both responsible creation and informed consumption. Developing a critical eye toward the visuals we encounter empowers us to navigate the data-rich world with clarity and confidence.
 
 <details>
-  <summary>Click here to view the code for generating the charts</summary>
+  <summary>Click here to view the code used to generate the charts</summary>
 
   ```bash
   # Create a directory for the images if it doesn't exist
