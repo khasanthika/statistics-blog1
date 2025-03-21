@@ -77,7 +77,7 @@ By understanding fundamental chart types bar charts, line graphs, and pie charts
 <details>
   <summary>Click here to view the code used to generate the charts</summary>
 
-  ```Bash
+  ```
   # Create a directory for the images if it doesn't exist
   mkdir -p graphs
 
@@ -165,6 +165,5 @@ By understanding fundamental chart types bar charts, line graphs, and pie charts
   plt.savefig("graphs/nonmisleading_pie_chart.png")
   plt.close()
   EOF
-```
-
   echo "Graphs generated and saved in the 'graphs' directory."
+```
