@@ -170,4 +170,4 @@ By understanding fundamental chart types bar charts, line graphs, and pie charts
   plt.close()
   EOF
   echo "Graphs generated and saved in the 'graphs' directory."
-</details>
+</details>```
