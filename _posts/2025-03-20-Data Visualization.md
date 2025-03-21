@@ -77,93 +77,33 @@ By understanding fundamental chart types bar charts, line graphs, and pie charts
 <details>
   <summary>Click here to view the code used to generate the charts</summary>
 
-  ```bash
-  # Create a directory for the images if it doesn't exist
-  mkdir -p graphs
+ {% highlight bash %}
+%%bash
+# Create a directory for the images if it doesn't exist
+mkdir -p graphs
 
-  python - << 'EOF'
-  import matplotlib.pyplot as plt
-  import numpy as np
+python - << 'EOF'
+import matplotlib.pyplot as plt
+import numpy as np
 
-  # ------------------------------
-  # Bar Charts
-  # ------------------------------
-  regions = ['Region A', 'Region B', 'Region C']
-  values = [600000, 650000, 700000]
+# ------------------------------
+# Bar Charts
+# ------------------------------
+regions = ['Region A', 'Region B', 'Region C']
+values = [600000, 650000, 700000]
 
-  # Misleading Bar Chart: y-axis starting at 500,000
-  plt.figure(figsize=(6,4))
-  plt.bar(regions, values, color='skyblue')
-  plt.ylim(500000, max(values)+10000)
-  plt.title("Misleading Bar Chart (Truncated y-axis)")
-  plt.ylabel("Sales")
-  plt.xlabel("Regions")
-  plt.tight_layout()
-  plt.savefig("graphs/misleading_bar_chart.png")
-  plt.close()
+# Misleading Bar Chart: y-axis starting at 500,000
+plt.figure(figsize=(6,4))
+plt.bar(regions, values, color='skyblue')
+plt.ylim(500000, max(values)+10000)
+plt.title("Misleading Bar Chart (Truncated y-axis)")
+plt.ylabel("Sales")
+plt.xlabel("Regions")
+plt.tight_layout()
+plt.savefig("graphs/misleading_bar_chart.png")
+plt.close()
+EOF
+echo "Graphs generated and saved in the 'graphs' directory."
+{% endhighlight %}
 
-  # Non-misleading Bar Chart: y-axis starting at 0
-  plt.figure(figsize=(6,4))
-  plt.bar(regions, values, color='lightgreen')
-  plt.ylim(0, max(values)+100000)
-  plt.title("Non-misleading Bar Chart (Full y-axis)")
-  plt.ylabel("Sales")
-  plt.xlabel("Regions")
-  plt.tight_layout()
-  plt.savefig("graphs/nonmisleading_bar_chart.png")
-  plt.close()
-
-  # ------------------------------
-  # Line Graphs
-  # ------------------------------
-  years = np.arange(2000, 2011)
-  temperatures = [30.1, 30.3, 30.2, 30.5, 30.4, 30.6, 30.8, 30.7, 30.9, 31.0, 31.2]
-
-  # Misleading Line Graph: y-axis set to narrow range
-  plt.figure(figsize=(6,4))
-  plt.plot(years, temperatures, marker='o', linestyle='-', color='coral')
-  plt.ylim(30, 31.5)
-  plt.title("Misleading Line Graph (Narrow y-axis)")
-  plt.ylabel("Temperature (°C)")
-  plt.xlabel("Year")
-  plt.tight_layout()
-  plt.savefig("graphs/misleading_line_graph.png")
-  plt.close()
-
-  # Non-misleading Line Graph: y-axis including full range
-  plt.figure(figsize=(6,4))
-  plt.plot(years, temperatures, marker='o', linestyle='-', color='seagreen')
-  plt.ylim(0, 35)
-  plt.title("Non-misleading Line Graph (Full y-axis)")
-  plt.ylabel("Temperature (°C)")
-  plt.xlabel("Year")
-  plt.tight_layout()
-  plt.savefig("graphs/nonmisleading_line_graph.png")
-  plt.close()
-
-  # ------------------------------
-  # Pie Charts
-  # ------------------------------
-  labels = ['Company A', 'Company B', 'Company C']
-  sizes = [40, 35, 25]
-  colors = ['gold', 'lightblue', 'lightcoral']
-
-  # Misleading Pie Chart: with shadow and exploded effect (simulating 3D effect)
-  explode = (0.1, 0, 0)  # Explode first slice
-  plt.figure(figsize=(6,4))
-  plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, shadow=True, explode=explode)
-  plt.title("Misleading Pie Chart (3D effect)")
-  plt.axis('equal')
-  plt.savefig("graphs/misleading_pie_chart.png")
-  plt.close()
-
-  # Non-misleading Pie Chart: Flat design
-  plt.figure(figsize=(6,4))
-  plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, shadow=False)
-  plt.title("Non-misleading Pie Chart (Flat design)")
-  plt.axis('equal')
-  plt.savefig("graphs/nonmisleading_pie_chart.png")
-  plt.close()
-  EOF
-  echo "Graphs generated and saved in the 'graphs' directory."
-</details>```
+</details>
