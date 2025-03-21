@@ -7,7 +7,7 @@ In our data-driven world, charts and graphs are essential tools in statistics, e
 Charts play a pivotal role in statistics by providing a visual representation of data, allowing for quick comprehension of trends, distributions, and relationships within datasets. They serve various purposes, including:
 
 - **Simplifying Complex Data**: Charts distill large volumes of data into digestible visuals, aiding in the identification of patterns and outliers.
-- **Facilitating Comparisons**: They enable straightforward comparisons between different data sets or variables.
+- **Facilitating Comparisons**: They enable straightforward comparisons between different data sets or variables.
 - **Enhancing Communication**: Visual representations can effectively convey messages, making data-driven insights more accessible to diverse audiences.
 
 Conversely, misleading charts can obscure true data meanings, leading to misinterpretations. Such charts might manipulate scales, omit context, or use deceptive visuals, all of which can mislead viewers. Recognizing these tactics is essential for critical data consumption.
