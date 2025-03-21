@@ -4,8 +4,9 @@
   <img src="{{ site.baseurl }}/assets/images/image8.jpg" alt="Descriptive Alt Text" width="400">
 </div>
 
-
-In our data-driven world, charts and graphs are essential tools in statistics, enabling us to summarize complex datasets and reveal underlying patterns. They transform raw numbers into visual narratives, making information accessible and facilitating informed decision-making. However, when misused, these visual aids can distort data, leading to misconceptions and erroneous conclusions. Understanding the fundamentals of data visualization and recognizing potential pitfalls is crucial for both creators and consumers of data.
+<p style="margin-top: 20px;">
+ In our data-driven world, charts and graphs are essential tools in statistics, enabling us to summarize complex datasets and reveal underlying patterns. They transform raw numbers into visual narratives, making information accessible and facilitating informed decision-making. However, when misused, these visual aids can distort data, leading to misconceptions and erroneous conclusions. Understanding the fundamentals of data visualization and recognizing potential pitfalls is crucial for both creators and consumers of data.
+</p>
 
 ## The Importance of Charts in Statistics
 
@@ -79,8 +80,7 @@ By understanding fundamental chart types bar charts, line graphs, and pie charts
 <details>
   <summary>Click here to view the code used to generate the charts</summary>
 
-#{% highlight bash %}
-```bash
+{% highlight bash %}
 # Create a directory for the images if it doesn't exist
 mkdir -p graphs
 
@@ -170,6 +170,5 @@ plt.close()
 EOF
 
 echo "Graphs generated and saved in the 'graphs' directory."
-#{% endhighlight %}
-```
+{% endhighlight %}
 </details>
