@@ -20,12 +20,12 @@ Conversely, misleading charts can obscure true data meanings, leading to misinte
 
 ## Common Chart Types and Potential Misleading Practices
 
-Let's explore three fundamental chart types bar charts, line graphs, and pie charts highlighting their proper usage and how design choices, like axis scaling, can mislead.
+Let's explore three fundamental chart types like bar charts, line graphs, and pie charts highlighting their proper usage and how design choices, like axis scaling, can be misleading.
 
 ---
 
 ### Bar Charts  
-Bar charts represent categorical data with rectangular bars, where the length of each bar correlates with the category's value. They are ideal for comparing quantities across different categories. To read and understand a bar chart, the horizontal axis (x-axis) typically lists the categories, while the vertical axis (y-axis) shows the numerical values. The height or length of each bar indicates the value it represents. Bar charts allow for easy comparison of values across categories, making them effective for visualizing differences between groups.  
+Bar charts represent categorical data with rectangular bars, where the length of each bar correlates with the frequency of each category. They are ideal for comparing quantities across different categories. To read and understand a bar chart, the horizontal axis (x-axis) typically lists the categories, while the vertical axis (y-axis) shows the frequencies. The height or length of each bar indicates the frequency it represents. Bar charts allow for easy comparison of frequencies across categories, making them effective for visualizing differences between groups.  
 
 #### Misleading Bar Chart  
 Consider a bar chart comparing sales figures across regions, where the y-axis starts at 500,000 instead of zero. This truncation exaggerates the differences between regions, making the disparities appear more significant than they actually are.
@@ -40,7 +40,7 @@ In contrast, the accurate bar chart starts the y-axis at zero, reflecting the tr
 ---
 
 ### Line Graphs  
-Line graphs display data points connected by straight lines, illustrating trends over time or continuous data. They are useful for showing changes and trends in variables. To read and understand a line graph, the x-axis represents the independent variable (e.g., time), while the y-axis represents the dependent variable. The line connects data points, showing the trend or pattern of the data. The slope of the line indicates the rate of change over time, allowing viewers to observe whether a value is increasing, decreasing, or remaining constant.  
+Line graphs display data points connected by straight lines, illustrating trends over time. They are useful for showing changes and trends in quantitative variables. To read and understand a line graph, the x-axis represents the independent variable (e.g., time), while the y-axis represents the dependent variable. The line connects data points, showing the trend or pattern of the data. The slope of the line indicates the rate of change over time, allowing viewers to observe whether a value is increasing, decreasing, or remaining constant.  
 
 #### Misleading Line Graph  
 Consider a line graph depicting annual temperatures, where the y-axis ranges from 30°C to 35°C instead of starting from zero. This narrow range exaggerates the temperature variations, making it seem like the changes are much more dramatic than they actually are.
@@ -55,7 +55,7 @@ A more accurate line graph uses a y-axis that includes the full range of tempera
 ---
 
 ### Pie Charts  
-Pie charts represent parts of a whole, with each slice corresponding to a category's proportion of the total. They are effective for showing percentage distributions. To read and understand a pie chart, each slice’s angle and area represent the category's proportion relative to the total. The slices should be labeled with their corresponding categories and percentages to ensure clarity. The entire pie represents 100%, with all the slices combined equaling the whole.  
+Pie charts represent parts of a whole, with each slice corresponding to a category's proportion of the total. They are effective for showing percentage distributions. To read and understand a pie chart, each slice’s angle and area represent the category's proportion relative to the total. The slices should be labeled with their corresponding categories and percentages to ensure clarity. The entire pie represents 100% (total), with all the slices combined equaling the whole.  
 
 #### Misleading Pie Chart  
 Consider a pie chart representing market share distribution between three companies. The chart uses a 3D effect, making one of the slices (Company A) appear disproportionately large, even though the actual market share is smaller. The 3D effect and exploded slice visually exaggerate Company A's portion, causing misinterpretation of the data.
