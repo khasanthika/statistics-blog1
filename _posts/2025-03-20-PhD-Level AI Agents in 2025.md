@@ -7,7 +7,7 @@ In recent years, discussions about AI have shifted from incremental improvements
 
 According to recent reports, including insights from Reuters and The Guardian, pilot programs and early deployments of virtual employees and autonomous AI agents (such as OpenAI’s soon-to-be-released “Operator”) are already in progress. OpenAI’s product chief Kevin Weil has emphasized that humanity is on the brink of transitioning from ChatGPT-like smart assistants to AI agents capable of executing tasks that typically require PhD-level expertise. While many AI models are currently limited to processing text and images, these emerging systems are designed to control computer interfaces, execute multi-step processes, and even manage tasks like scheduling, code writing, or complex research projects.
 
-Industry voices suggest that the earliest meaningful changes can be observed in the coming months—with broader adoption expected over the next 12 to 18 months. In other words, if you’re a PhD student or an advanced researcher, you might already be witnessing incremental transformations in your workflow, with more disruptive impacts anticipated as these systems mature. citeturn2news25 citeturn2news33
+Industry voices suggest that the earliest meaningful changes can be observed in the coming months—with broader adoption expected over the next 12 to 18 months. In other words, if you’re a PhD student or an advanced researcher, you might already be witnessing incremental transformations in your workflow, with more disruptive impacts anticipated as these systems mature. [Link 1](https://www.theguardian.com/business/2025/jan/06/virtual-employees-could-join-workforce-as-soon-as-this-year-openai-boss-says), [Link 2](https://www.theverge.com/2024/11/13/24295879/openai-agent-operator-autonomous-ai)
 
 ### Impact on PhD Holders and Research Careers
 
@@ -17,7 +17,7 @@ PhD-level AI agents are poised to fundamentally alter how research and high-leve
 - **Lead Interdisciplinary Projects:** As the boundaries between fields blur, PhD graduates will be well-positioned to lead projects that require synthesizing knowledge across diverse domains—combining deep technical skills with strategic oversight.
 - **Develop Ethical and Safety Frameworks:** With AI systems making decisions in sensitive fields like healthcare and finance, PhD holders with expertise in ethics, law, and policy will play a crucial role in designing frameworks to ensure that AI operates safely and fairly.
 
-The transformation is already being felt. A recent survey by Duke University and the Federal Reserve Banks indicated that nearly 60% of companies have begun automating tasks traditionally performed by human employees, and this trend is set to accelerate as autonomous agents become more reliable. citeturn2news25
+The transformation is already being felt. A recent survey by Duke University and the Federal Reserve Banks indicated that nearly 60% of companies have begun automating tasks traditionally performed by human employees, and this trend is set to accelerate as autonomous agents become more reliable. 
 
 ### Essential Qualifications for the New Era
 
@@ -38,7 +38,7 @@ To thrive in this rapidly changing environment, PhD holders must cultivate a ble
 
 4. **Lifelong Learning and Adaptability:**  
    - Embrace a mindset of continuous learning. Regularly attend workshops, conferences, and online courses to stay updated on the latest AI advancements.  
-   - Cultivate digital literacy and AI literacy—skills that enable you to understand, critically evaluate, and apply AI technologies in your field. citeturn2academia18
+   - Cultivate digital literacy and AI literacy—skills that enable you to understand, critically evaluate, and apply AI technologies in your field. [Link](https://arxiv.org/abs/2412.12107)
 
 ### The Road Ahead
 
