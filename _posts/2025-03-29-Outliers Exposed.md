@@ -13,17 +13,17 @@
 
 Outliers are observations that differ significantly from the majority of the data. They may arise naturally in a dataset, indicate variability, or signal errors during data collection. For example, if most house prices in a region range between \$100K and \$500K, a property priced at \$10M would stand out as an outlier.
 
-Different statistical definitions exist: while some methods consider any value beyond three standard deviations from the mean as an outlier, other approaches—like Tukey’s fences—use the interquartile range to flag extreme values citeturn0search10. Importantly, whether an extreme value is a genuine insight or a data error often depends on the context.
+In Statistics, there are several definitions of an outlier: some methods consider any value beyond three standard deviations from the mean as an outlier, other approaches—like Tukey’s fences—use the interquartile range to flag extreme values [1](https://en.wikipedia.org/wiki/Outlier). Importantly, whether an extreme value is a genuine insight or a data error often depends on the context.
 
 ---
 
 ## Why Do Outliers Matter?
 
-Outliers can dramatically influence statistical measures:
+Outliers can dramatically influence statistical measures. For example:
   
 - **Skewing Averages:** Outliers can pull the mean away from the typical value. In a dataset of temperatures, for instance, nine readings between 20°C and 25°C combined with one reading of 175°C will inflate the average temperature, even though the median remains within the normal range.
   
-- **Impacting Variability and Model Performance:** Many statistical models, including linear regressions and clustering algorithms, assume data follows a certain distribution. Outliers can distort these assumptions, leading to models that overfit or underperform citeturn0search2.
+- **Impacting Variability and Model Performance:** Many statistical models, including linear regressions and clustering algorithms, assume data follows a certain distribution. Outliers can distort these assumptions, leading to models that overfit or underperform.
 
 - **Revealing Underlying Issues or Opportunities:** In some cases, outliers may indicate fraudulent transactions, equipment malfunctions, or even previously undiscovered phenomena. In healthcare, for example, an unexpectedly high lab result might point to a critical condition that warrants further investigation.
 
@@ -38,7 +38,7 @@ A variety of methods exist to identify outliers, each suited to different types 
 ### Graphical Methods
 
 **Box Plots and Scatter Plots:**  
-These visual tools help quickly pinpoint outliers. In a box plot, points that lie beyond the “whiskers” (typically 1.5× the interquartile range from Q₁ or Q₃) are flagged as potential outliers citeturn0search10. Scatter plots, meanwhile, can highlight isolated points in multivariate data.
+These visual tools help quickly pinpoint outliers. In a box plot, points that lie beyond the “whiskers” (typically 1.5× the interquartile range from Q₁ or Q₃) are flagged as potential outliers. Scatter plots, meanwhile, can highlight isolated points in multivariate data.
 
 ### Statistical Approaches
 
@@ -47,6 +47,12 @@ For data assumed to be normally distributed, calculating the Z-score (how many s
 
 **Interquartile Range (IQR):**  
 When data is skewed or non-normal, the IQR method is preferable. By computing Q₁ and Q₃, analysts flag any observation that lies outside the range [Q₁ − 1.5×IQR, Q₃ + 1.5×IQR] as an outlier.
+
+
+
+
+
+
 
 **Robust Statistical Methods:**  
 Methods like Grubbs’ test or the Modified Thompson Tau test provide objective criteria to detect and potentially remove outliers, especially when the dataset’s distribution is well understood citeturn0search7.
