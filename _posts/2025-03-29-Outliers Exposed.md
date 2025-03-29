@@ -1,7 +1,7 @@
 # Outliers Exposed: When Data Points Defy the Norm
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/image11.jpg" alt="Descriptive Alt Text" width="400">
+  <img src="{{ site.baseurl }}/assets/images/image11.png" alt="Descriptive Alt Text" width="400">
 </div>
 
 
