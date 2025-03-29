@@ -48,12 +48,6 @@ For data assumed to be normally distributed, calculating the Z-score (how many s
 **Interquartile Range (IQR):**  
 When data is skewed or non-normal, the IQR method is preferable. By computing Q₁ and Q₃, analysts flag any observation that lies outside the range [Q₁ − 1.5×IQR, Q₃ + 1.5×IQR] as an outlier.
 
-
-
-
-
-
-
 **Robust Statistical Methods:**  
 Methods like Grubbs’ test or the Modified Thompson Tau test provide objective criteria to detect and potentially remove outliers, especially when the dataset’s distribution is well understood citeturn0search7.
 
@@ -75,7 +69,7 @@ Once detected, outliers can be addressed using several strategies:
 
 ### Trimming and Exclusion
 
-Removing outliers (trimming) is sometimes warranted—particularly when they are known to be errors or when they disproportionately skew results. However, exclusion must be approached with caution, as it may discard valuable information. For instance, in financial data, outliers might represent fraud; eliminating these points could obscure critical insights.
+Removing outliers (trimming) is sometimes warranted, particularly when they are known to be errors or when they disproportionately skew results. However, exclusion must be approached with caution, as it may discard valuable information. For instance, in financial data, outliers might represent fraud; eliminating these points could obscure critical insights.
 
 ### Capping (Winsorizing)
 
