@@ -1,6 +1,11 @@
 # Outliers Exposed: When Data Points Defy the Norm
 
-Data drives decision making across every field—from finance to healthcare—yet even the most carefully collected datasets can harbor anomalies. Outliers, or data points that deviate dramatically from the norm, can both reveal hidden insights and skew analyses if left unchecked. In this article, we explore the nature of outliers, why they matter, and how robust strategies can detect and manage them to improve data integrity and generate more reliable insights.
+<div style="text-align: center;">
+  <img src="{{ site.baseurl }}/assets/images/image11.jpg" alt="Descriptive Alt Text" width="400">
+</div>
+
+
+Data drives decision making across every field—from finance to healthcare, yet even the most carefully collected datasets can harbor anomalies. Outliers, or data points that deviate dramatically from the norm, can both reveal hidden insights and skew analyses if left unchecked. In this article, we explore the nature of outliers, why they matter, and how robust strategies can detect and manage them to improve data integrity and generate more reliable insights.
 
 ---
 
@@ -283,17 +288,3 @@ Outliers are not merely statistical nuisances—they can obscure underlying tren
 The illustrated examples above—ranging from purely quantitative data to mixed data types—demonstrate that outlier detection must be tailored to the nature of the variables. Graphical evidence (box plots, scatter plots, bar charts, and heat maps) serves as an intuitive first step, guiding further statistical analysis and decision making.
 
 Ultimately, whether an outlier should be removed or retained depends on its origin and context. A careful balance between preserving genuine data variability and mitigating undue influence is key to successful data-driven decision making.
-
----
-
-
-
-
-
-
-
-
-
-
-
-
