@@ -89,16 +89,6 @@ Below are several examples that illustrate outlier detection and management. Eac
 
 Imagine a dataset containing the frequency of customer complaints across different product categories. Most categories have moderate complaint counts; however, one category shows an extremely low count relative to others, which may indicate underreporting or misclassification. For example, we have a bar chart shows product categories on the x-axis and complaint counts on the y-axis. One bar (e.g., "Electronics") is drastically shorter than the others.
 
-
-```{r setup, include=FALSE}
-# Load the reticulate package and set the Python environment
-library(reticulate)
-# Optional: specify the path to your Python interpreter (use the correct path you found)
-use_python("C:/Users/kalan/AppData/Local/Programs/Python/Python311/python.exe")  
-# Replace with the actual path
-```
-
-
 ```{python}
 import matplotlib.pyplot as plt
 import pandas as pd
