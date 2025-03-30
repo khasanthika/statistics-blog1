@@ -91,6 +91,9 @@ Imagine a dataset containing the frequency of customer complaints across differe
 
 ![Categorical Variable]({{ site.baseurl }}/assets/images/ographs/1.jpg)
 
+*Interpretation:*  
+The unusually low count in "Electronics" flags a potential anomaly that warrants further investigation.
+
 ```{python}
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -111,10 +114,6 @@ plt.ylabel('Complaint Count')
 plt.show()
 ```
 
-
-*Interpretation:*  
-The unusually low count in "Electronics" flags a potential anomaly that warrants further investigation.
-
 ---
 
 ### Example 2: Quantitative Variable
@@ -122,6 +121,9 @@ The unusually low count in "Electronics" flags a potential anomaly that warrants
 Consider daily sales data for a retail store. Most days record sales between \$1,000 and \$1,500. One day, however, records sales of \$5,000, which is an outlier that can inflate the average displayed in the box plot of daily sales below, showing  one point (the \$5,000 day) far above the upper whisker.
 
 ![Quantitative Variable]({{ site.baseurl }}/assets/images/ographs/2.jpg)
+
+*Interpretation:*  
+The extreme sales value skews the mean; robust measures like the median would provide a more accurate view of typical performance.
 
 ```{python}
 import numpy as np
@@ -142,9 +144,6 @@ plt.ylabel('Sales ($)')
 plt.show()
 ```
 
-*Interpretation:*  
-The extreme sales value skews the mean; robust measures like the median would provide a more accurate view of typical performance.
-
 ---
 
 ### Example 3: Categorical and Quantitative Variables
@@ -152,6 +151,9 @@ The extreme sales value skews the mean; robust measures like the median would pr
 Imagine a dataset that records sales (quantitative) by region (categorical). While most regions show similar sales distributions, one region displays a few unusually high sales figures in the grouped box plot—with regions on the x-axis and sales on the y-axis reveals that one region (e.g., "North") has several points above the typical range compared to other regions.
 
 ![Categorical and Quantitative Variables]({{ site.baseurl }}/assets/images/ographs/3.jpg)
+
+*Interpretation:*  
+The outlying high sales in the "North" region suggest either a seasonal event, data entry error, or a unique market condition, prompting further analysis.
 
 ```{python}
 import pandas as pd
@@ -186,10 +188,6 @@ plt.show()
 
 ```
 
-
-*Interpretation:*  
-The outlying high sales in the "North" region suggest either a seasonal event, data entry error, or a unique market condition, prompting further analysis.
-
 ---
 
 ### Example 4: Two Quantitative Variables
@@ -197,6 +195,9 @@ The outlying high sales in the "North" region suggest either a seasonal event, d
 In a study of height and weight, most individuals follow a general linear trend. However, one individual has a weight far in excess of what their height would suggest which can be seen by the scatter plot of height (x-axis) versus weight (y-axis) showing one point clearly detached from the cluster.
 
 ![Two Quantitative Variables]({{ site.baseurl }}/assets/images/ographs/4.jpg)
+
+*Interpretation:*  
+The detached point indicates a potential data error or an exceptional case (e.g., a misrecorded weight), and its impact on any regression analysis would need careful consideration.
 
 ```{python}
 import numpy as np
@@ -222,10 +223,6 @@ plt.show()
 
 ```
 
-
-*Interpretation:*  
-The detached point indicates a potential data error or an exceptional case (e.g., a misrecorded weight), and its impact on any regression analysis would need careful consideration.
-
 ---
 
 ### Example 5: Two Categorical Variables
@@ -233,6 +230,9 @@ The detached point indicates a potential data error or an exceptional case (e.g.
 Consider a contingency table of survey responses where respondents choose both a preferred communication method (email, phone, text) and their satisfaction level (satisfied, neutral, dissatisfied). One combination (e.g., "Text" and "dissatisfied") might appear far less frequently than expected as shown in the heat map of the contingency table swhere most cells had moderate frequencies except for one cell, which is nearly blank.
 
 ![Two Categorical Variables]({{ site.baseurl }}/assets/images/ographs/5.jpg)
+
+*Interpretation:*  
+The sparse cell could indicate an anomaly in responses. It might be a statistical outlier or simply a rare combination; understanding its cause is crucial for proper interpretation.
 
 ```{python}
 import pandas as pd
@@ -259,10 +259,6 @@ plt.ylabel('Satisfaction Level')
 plt.show()
 
 ```
-
-
-*Interpretation:*  
-The sparse cell could indicate an anomaly in responses. It might be a statistical outlier or simply a rare combination; understanding its cause is crucial for proper interpretation.
 
 ---
 
