@@ -121,6 +121,8 @@ The unusually low count in "Electronics" flags a potential anomaly that warrants
 
 Consider daily sales data for a retail store. Most days record sales between \$1,000 and \$1,500. One day, however, records sales of \$5,000, which is an outlier that can inflate the average displayed in the box plot of daily sales below, showing  one point (the \$5,000 day) far above the upper whisker.
 
+![Quantitative Variable]({{ site.baseurl }}/assets/images/ographs/2.jpg)
+
 ```{python}
 import numpy as np
 import matplotlib.pyplot as plt
@@ -148,6 +150,8 @@ The extreme sales value skews the mean; robust measures like the median would pr
 ### Example 3: Categorical and Quantitative Variables
 
 Imagine a dataset that records sales (quantitative) by region (categorical). While most regions show similar sales distributions, one region displays a few unusually high sales figures in the grouped box plot—with regions on the x-axis and sales on the y-axis reveals that one region (e.g., "North") has several points above the typical range compared to other regions.
+
+![Categorical and Quantitative Variables]({{ site.baseurl }}/assets/images/ographs/3.jpg)
 
 ```{python}
 import pandas as pd
@@ -192,6 +196,8 @@ The outlying high sales in the "North" region suggest either a seasonal event, d
 
 In a study of height and weight, most individuals follow a general linear trend. However, one individual has a weight far in excess of what their height would suggest which can be seen by the scatter plot of height (x-axis) versus weight (y-axis) showing one point clearly detached from the cluster.
 
+![Two Quantitative Variables]({{ site.baseurl }}/assets/images/ographs/4.jpg)
+
 ```{python}
 import numpy as np
 import matplotlib.pyplot as plt
@@ -225,6 +231,8 @@ The detached point indicates a potential data error or an exceptional case (e.g.
 ### Example 5: Two Categorical Variables
 
 Consider a contingency table of survey responses where respondents choose both a preferred communication method (email, phone, text) and their satisfaction level (satisfied, neutral, dissatisfied). One combination (e.g., "Text" and "dissatisfied") might appear far less frequently than expected as shown in the heat map of the contingency table swhere most cells had moderate frequencies except for one cell, which is nearly blank.
+
+![Two Categorical Variables]({{ site.baseurl }}/assets/images/ographs/5.jpg)
 
 ```{python}
 import pandas as pd
