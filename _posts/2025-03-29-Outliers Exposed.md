@@ -89,7 +89,7 @@ Below are several examples that illustrate outlier detection and management. Eac
 
 Imagine a dataset containing the frequency of customer complaints across different product categories. Most categories have moderate complaint counts; however, one category shows an extremely low count relative to others, which may indicate underreporting or misclassification. For example, we have a bar chart shows product categories on the x-axis and complaint counts on the y-axis. One bar (e.g., "Electronics") is drastically shorter than the others.
 
-({{ site.baseurl }}/assets/images/ographs/1.jpg)
+![Categorical Variable]({{ site.baseurl }}/assets/images/ographs/1.jpg)
 
 ```{python}
 import matplotlib.pyplot as plt
