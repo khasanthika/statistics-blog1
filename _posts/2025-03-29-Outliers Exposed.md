@@ -49,7 +49,7 @@ For data assumed to be normally distributed, calculating the Z-score (how many s
 When data is skewed or non-normal, the IQR method is preferable. By computing Q₁ and Q₃, analysts flag any observation that lies outside the range [Q₁ − 1.5×IQR, Q₃ + 1.5×IQR] as an outlier.
 
 **Robust Statistical Methods:**  
-Methods like Grubbs’ test or the Modified Thompson Tau test provide objective criteria to detect and potentially remove outliers, especially when the dataset’s distribution is well understood citeturn0search7.
+Methods like Grubbs’ test or the Modified Thompson Tau test provide objective criteria to detect and potentially remove outliers, especially when the dataset’s distribution is well understood.
 
 ### Machine Learning Methods
 
@@ -57,7 +57,7 @@ Methods like Grubbs’ test or the Modified Thompson Tau test provide objective 
 This unsupervised algorithm isolates anomalies by creating random decision trees. Outliers require fewer splits to isolate, resulting in a shorter average path length compared to normal data points.
 
 **Local Outlier Factor (LOF):**  
-LOF compares the density of a point to that of its neighbors. If a data point’s density is significantly lower than that of its surrounding points, it is flagged as an outlier citeturn0search1.
+LOF compares the density of a point to that of its neighbors. If a data point’s density is significantly lower than that of its surrounding points, it is flagged as an outlier.
 
 Each method has strengths and limitations, so choosing the right one depends on the data’s nature and the analysis goals.
 
@@ -87,10 +87,7 @@ Below are several examples that illustrate outlier detection and management. Eac
 
 ### Example 1: Categorical Variable
 
-Imagine a dataset containing the frequency of customer complaints across different product categories. Most categories have moderate complaint counts; however, one category shows an extremely low count relative to others—which may indicate underreporting or misclassification.
-
-**Graphical Evidence:**  
-A bar chart shows product categories on the x-axis and complaint counts on the y-axis. One bar (e.g., "Electronics") is drastically shorter than the others.
+Imagine a dataset containing the frequency of customer complaints across different product categories. Most categories have moderate complaint counts; however, one category shows an extremely low count relative to others, which may indicate underreporting or misclassification. For example, we have a bar chart shows product categories on the x-axis and complaint counts on the y-axis. One bar (e.g., "Electronics") is drastically shorter than the others.
 
 
 ```{r setup, include=FALSE}
@@ -130,10 +127,7 @@ The unusually low count in "Electronics" flags a potential anomaly that warrants
 
 ### Example 2: Quantitative Variable
 
-Consider daily sales data for a retail store. Most days record sales between \$1,000 and \$1,500. One day, however, records sales of \$5,000—an outlier that can inflate the average.
-
-**Graphical Evidence:**  
-A box plot of daily sales shows one point (the \$5,000 day) far above the upper whisker.
+Consider daily sales data for a retail store. Most days record sales between \$1,000 and \$1,500. One day, however, records sales of \$5,000, which is an outlier that can inflate the average displayed in the box plot of daily sales below, showing  one point (the \$5,000 day) far above the upper whisker.
 
 ```{python}
 import numpy as np
@@ -161,10 +155,7 @@ The extreme sales value skews the mean; robust measures like the median would pr
 
 ### Example 3: Categorical and Quantitative Variables
 
-Imagine a dataset that records sales (quantitative) by region (categorical). While most regions show similar sales distributions, one region displays a few unusually high sales figures.
-
-**Graphical Evidence:**  
-A grouped box plot—with regions on the x-axis and sales on the y-axis—reveals that one region (e.g., "North") has several points above the typical range compared to other regions.
+Imagine a dataset that records sales (quantitative) by region (categorical). While most regions show similar sales distributions, one region displays a few unusually high sales figures in the grouped box plot—with regions on the x-axis and sales on the y-axis reveals that one region (e.g., "North") has several points above the typical range compared to other regions.
 
 ```{python}
 import pandas as pd
@@ -207,10 +198,7 @@ The outlying high sales in the "North" region suggest either a seasonal event, d
 
 ### Example 4: Two Quantitative Variables
 
-In a study of height and weight, most individuals follow a general linear trend. However, one individual has a weight far in excess of what their height would suggest.
-
-**Graphical Evidence:**  
-A scatter plot of height (x-axis) versus weight (y-axis) shows one point clearly detached from the cluster.
+In a study of height and weight, most individuals follow a general linear trend. However, one individual has a weight far in excess of what their height would suggest which can be seen by the scatter plot of height (x-axis) versus weight (y-axis) showing one point clearly detached from the cluster.
 
 ```{python}
 import numpy as np
@@ -244,10 +232,7 @@ The detached point indicates a potential data error or an exceptional case (e.g.
 
 ### Example 5: Two Categorical Variables
 
-Consider a contingency table of survey responses where respondents choose both a preferred communication method (email, phone, text) and their satisfaction level (satisfied, neutral, dissatisfied). One combination (e.g., "Text" and "dissatisfied") might appear far less frequently than expected.
-
-**Graphical Evidence:**  
-A heat map of the contingency table shows most cells with moderate frequencies except for one cell, which is nearly blank.
+Consider a contingency table of survey responses where respondents choose both a preferred communication method (email, phone, text) and their satisfaction level (satisfied, neutral, dissatisfied). One combination (e.g., "Text" and "dissatisfied") might appear far less frequently than expected as shown in the heat map of the contingency table swhere most cells had moderate frequencies except for one cell, which is nearly blank.
 
 ```{python}
 import pandas as pd
@@ -283,8 +268,8 @@ The sparse cell could indicate an anomaly in responses. It might be a statistica
 
 ## Conclusion
 
-Outliers are not merely statistical nuisances—they can obscure underlying trends or even offer valuable insights if properly understood. By applying a combination of graphical, statistical, and machine learning techniques, analysts can detect these anomalies and decide on the most appropriate management strategy. Whether through trimming, capping, or robust modeling, handling outliers effectively is essential to maintain data integrity and to draw more accurate, actionable conclusions.
+Outliers are not merely statistical nuisances, they can obscure underlying trends or even offer valuable insights if properly understood. By applying a combination of graphical, statistical, and machine learning techniques, analysts can detect these anomalies and decide on the most appropriate management strategy. Whether through trimming, capping, or robust modeling, handling outliers effectively is essential to maintain data integrity and to draw more accurate, actionable conclusions.
 
-The illustrated examples above—ranging from purely quantitative data to mixed data types—demonstrate that outlier detection must be tailored to the nature of the variables. Graphical evidence (box plots, scatter plots, bar charts, and heat maps) serves as an intuitive first step, guiding further statistical analysis and decision making.
+The illustrated examples above, ranging from purely quantitative data to mixed data types demonstrate that outlier detection must be tailored to the nature of the variables. Graphical evidence (box plots, scatter plots, bar charts, and heat maps) serves as an intuitive first step, guiding further statistical analysis and decision making.
 
 Ultimately, whether an outlier should be removed or retained depends on its origin and context. A careful balance between preserving genuine data variability and mitigating undue influence is key to successful data-driven decision making.
