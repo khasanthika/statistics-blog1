@@ -1,6 +1,13 @@
 # Correlation vs. Causation: Untangling Data Relationships
 
+<div style="text-align: center;">
+  <img src="{{ site.baseurl }}/assets/images/image12.jpg" alt="Descriptive Alt Text" width="500">
+</div>
+
+<p style="margin-top: 20px;">
 In today's data-driven world, understanding the difference between correlation and causation is essential. Whether you’re a student, a professional, or simply curious about how data tells a story, knowing how to interpret trends correctly can prevent misleading conclusions. This article explores the differences between correlation and causation, explains common pitfalls, and provides real-world examples with graphical evidence. We also dive deeper into statistical tools—like the Pearson correlation coefficient and regression analysis—with detailed scenarios to illustrate their use.
+</p>
+
 
 
 ## 1. Introduction
