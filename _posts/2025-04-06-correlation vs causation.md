@@ -49,9 +49,9 @@ During the summer, a scatter plot of ice cream sales (x-axis) versus drowning in
 - **Common Misinterpretation:** One might think that buying ice cream causes drowning.
 - **True Explanation:** The increased temperatures drive both higher ice cream sales and more swimming activities, which in turn elevate the risk of drowning.
 
-[Sample Scatter Plot]({{ site.baseurl }}/assets/images/cr_images/1.jpg)
+({{ site.baseurl }}/assets/images/cr_images/1.jpg)
 
-```python
+[Sample Scatter Plot](```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -68,7 +68,7 @@ plt.ylabel("Drowning Incidents")
 plt.plot(ice_cream_sales, 0.1 * ice_cream_sales, color='red', label="Trend Line")
 plt.legend()
 plt.show()
-```
+```)
 
 ### Example 2: Smoking and Lung Cancer
   
