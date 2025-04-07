@@ -49,7 +49,7 @@ During the summer, a scatter plot of ice cream sales (x-axis) versus drowning in
 - **Common Misinterpretation:** One might think that buying ice cream causes drowning.
 - **True Explanation:** The increased temperatures drive both higher ice cream sales and more swimming activities, which in turn elevate the risk of drowning.
 
-<img src="{{ site.baseurl }}/assets/images/cr_images/1.jpg" alt="Descriptive Alt Text" >
+![ch1]({{ site.baseurl }}/assets/images/cr_images/1.jpg)
 
 ```python
 import matplotlib.pyplot as plt
@@ -79,7 +79,7 @@ A bar chart comparing the incidence of lung cancer between smokers and non-smoke
 - **Causal Inference:** Decades of controlled studies have established smoking as a causal factor in lung cancer.
 - **Methodological Insight:** In this case, extensive epidemiological research and controlled experiments have ruled out confounding factors, leading to a strong causal claim.
 
-[Sample Bar Chart]({{ site.baseurl }}/assets/images/cr_images/2.jpg)
+![Sample Bar Chart]({{ site.baseurl }}/assets/images/cr_images/2.jpg)
 
 ```python
 import matplotlib.pyplot as plt
@@ -112,7 +112,7 @@ The Pearson coefficient only measures linear relationships. If two variables hav
 #### 1. Perfect Positive Correlation (r = 1)
 This example shows a perfectly linear upward trend. As X increases, Y increases proportionally. This results in a Pearson correlation coefficient of 1.
 
-[Char]({{ site.baseurl }}/assets/images/cr_images/3.jpg)
+![Char1]({{ site.baseurl }}/assets/images/cr_images/3.jpg)
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -132,7 +132,7 @@ plt.show()
 #### 2. Strong Negative Correlation (r ≈ -0.8)
 This plot illustrates a strong downward trend. As X increases, Y tends to decrease, though with some noise added. The line of best fit shows the general negative direction.
 
-[Chart2]({{ site.baseurl }}/assets/images/cr_images/4.jpg)
+![Chart2]({{ site.baseurl }}/assets/images/cr_images/4.jpg)
 
 ```python
 x = np.arange(10)
@@ -150,7 +150,7 @@ plt.show()
 #### 3. No Correlation (r ≈ 0)
 In this example, there's no discernible pattern between X and Y. The points are scattered randomly, indicating no linear relationship.
 
-[Chart3]({{ site.baseurl }}/assets/images/cr_images/5.jpg)
+![Chart3]({{ site.baseurl }}/assets/images/cr_images/5.jpg)
 
 ```python
 x = np.random.rand(10)
@@ -167,7 +167,7 @@ plt.show()
 #### 4. No Linear Correlation but Strong Non-Linear Relationship (r ≈ 0)
 This dataset shows a strong parabolic relationship. As X increases or decreases from 0, Y increases, forming a U-shape. Despite the clear relationship, the Pearson r is close to 0 because the relationship is not linear.
 
-[Chart4]({{ site.baseurl }}/assets/images/cr_images/6.jpg)
+![Chart4]({{ site.baseurl }}/assets/images/cr_images/6.jpg)
 
 ```python
 x = np.linspace(-3, 3, 100)
