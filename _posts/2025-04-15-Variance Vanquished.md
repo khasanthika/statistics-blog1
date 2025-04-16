@@ -13,18 +13,14 @@ In this article, we explore these concepts in detail, present practical examples
 - **Variance:**  
   Variance measures the average of the squared differences from the mean. It captures how much the values in a dataset deviate from the average, but in squared units. The formula for variance \( \sigma^2 \) (for a population) is:
 
-  \[
-  \sigma^2 = \frac{1}{N}\sum_{i=1}^{N}(x_i - \mu)^2
-  \]
+![formula1]({{ site.baseurl }}/assets/images/vgraphs/f1.jpg)
 
   For a sample, the denominator becomes \( n-1 \) to correct for bias.
 
 - **Standard Deviation:**  
   Standard deviation is the square root of the variance. By taking the square root, the measure returns to the original units of the data, making it easier to interpret. Its formula is:
 
-  \[
-  \sigma = \sqrt{\sigma^2}
-  \]
+![formula2]({{ site.baseurl }}/assets/images/vgraphs/f2.jpg)
 
 ### Why Are They Important?
 
@@ -41,6 +37,8 @@ To better grasp these concepts, let’s look at some simulated examples. Assume 
 ### Example 1: Moderate Variability
 
 Imagine a dataset representing monthly sales figures that cluster tightly around the mean. Below is a Python snippet to generate a histogram illustrating this scenario:
+
+![graph1]({{ site.baseurl }}/assets/images/vgraphs/g1.jpg)
 
 ```python
 import numpy as np
@@ -66,6 +64,8 @@ This histogram shows a data distribution that is bell-shaped. The mean is marked
 ### Example 2: High Variability
 
 Next, consider a dataset where sales are more volatile. This could be due to market instability.
+
+![graph2]({{ site.baseurl }}/assets/images/vgraphs/g2.jpg)
 
 ```python
 # Generating a dataset with high variability (mean=50, std=15)
@@ -108,6 +108,8 @@ One critical drawback of variance and standard deviation is their sensitivity to
 
 Let’s simulate a scenario with a dataset that includes an outlier:
 
+![graph3]({{ site.baseurl }}/assets/images/vgraphs/g3.jpg)
+
 ```python
 # Generating a dataset with an outlier
 data_outlier = np.concatenate([np.random.normal(loc=50, scale=5, size=495), [150, 160, 170, 180, 190]])
@@ -135,12 +137,12 @@ When dealing with datasets that include outliers or exhibit strong skewness, rob
 
 **MAD** is defined as the median of the absolute deviations from the median of the dataset. It is less influenced by extreme values.
 
-\[
-\text{MAD} = \text{median}(|x_i - \text{median}(x)|)
-\]
+![formula3]({{ site.baseurl }}/assets/images/vgraphs/f3.jpg)
 
 *Example Calculation:*  
 Using the same data with outliers, the MAD can give a more representative measure of spread than the standard deviation. Although no code is provided here for direct computation, Python libraries such as NumPy or SciPy make it straightforward:
+
+![graph4]({{ site.baseurl }}/assets/images/vgraphs/g4.jpg)
 
 ```python
 median = np.median(data_outlier)
@@ -153,13 +155,13 @@ print("MAD:", mad)
 
 **IQR** represents the range between the 75th percentile (Q3) and 25th percentile (Q1) of the dataset:
 
-\[
-\text{IQR} = Q3 - Q1
-\]
+![formula4]({{ site.baseurl }}/assets/images/vgraphs/f4.jpg)
 
 IQR is extremely useful in identifying the spread of the middle 50% of data while ignoring the impact of outliers.
 
 *Example Graph of IQR:*
+
+![graph5]({{ site.baseurl }}/assets/images/vgraphs/g5.jpg)
 
 ```python
 import matplotlib.pyplot as plt
