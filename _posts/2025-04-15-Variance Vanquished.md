@@ -148,6 +148,7 @@ mad = np.median(np.abs(data_outlier - median))
 print("Median:", median)
 print("MAD:", mad)
 ```
+![formula5]({{ site.baseurl }}/assets/images/vgraphs/f5.jpg)
 
 ### 5.2 Interquartile Range (IQR)
 
