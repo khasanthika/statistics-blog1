@@ -13,9 +13,7 @@ In this article, we explore these concepts in detail, present practical examples
 - **Variance:**  
   Variance measures the average of the squared differences from the mean. It captures how much the values in a dataset deviate from the average, but in squared units. The formula for variance \( \sigma^2 \) (for a population) is:
 
-<div style="text-align: center;">
-  ![formula1]({{ site.baseurl }}/assets/images/vgraphs/f1.jpg)
-</div>
+  ![formula1]({{ site.baseurl }}/assets/images/vgraphs/f1.jpg){: .center }
 
   For a sample, the denominator becomes \( n-1 \) to correct for bias.
 
