@@ -1,9 +1,3 @@
----
-title: '123'
-output: html_document
-date: "2025-04-16"
----
-
 # Variance Vanquished: Demystifying Data Spread and Standard Deviation
 
 Understanding data isn’t limited to just knowing its central tendency (i.e., the mean or average). Equally important is grasping how data is spread out. Two of the most common measures to quantify this spread are **variance** and **standard deviation**. They reveal the hidden variability in datasets, which is crucial for risk assessment, forecasting, and decision making.
