@@ -142,8 +142,6 @@ When dealing with datasets that include outliers or exhibit strong skewness, rob
 *Example Calculation:*  
 Using the same data with outliers, the MAD can give a more representative measure of spread than the standard deviation. Although no code is provided here for direct computation, Python libraries such as NumPy or SciPy make it straightforward:
 
-![graph4]({{ site.baseurl }}/assets/images/vgraphs/g4.jpg)
-
 ```python
 median = np.median(data_outlier)
 mad = np.median(np.abs(data_outlier - median))
@@ -161,7 +159,7 @@ IQR is extremely useful in identifying the spread of the middle 50% of data whil
 
 *Example Graph of IQR:*
 
-![graph5]({{ site.baseurl }}/assets/images/vgraphs/g5.jpg)
+![graph4]({{ site.baseurl }}/assets/images/vgraphs/g4.jpg)
 
 ```python
 import matplotlib.pyplot as plt
