@@ -20,7 +20,7 @@ In this article, we explore these concepts in detail, present practical examples
 - **Standard Deviation:**  
   Standard deviation is the square root of the variance. By taking the square root, the measure returns to the original units of the data, making it easier to interpret. Its formula is:
 
-![formula2]({{ site.baseurl }}/assets/images/vgraphs/f2.jpg)
+![formula2]({{ site.baseurl }}/assets/images/vgraphs/f2.jpg){: .center }
 
 ### Why Are They Important?
 
@@ -137,7 +137,7 @@ When dealing with datasets that include outliers or exhibit strong skewness, rob
 
 **MAD** is defined as the median of the absolute deviations from the median of the dataset. It is less influenced by extreme values.
 
-![formula3]({{ site.baseurl }}/assets/images/vgraphs/f3.jpg)
+![formula3]({{ site.baseurl }}/assets/images/vgraphs/f3.jpg){: .center }
 
 *Example Calculation:*  
 Using the same data with outliers, the MAD can give a more representative measure of spread than the standard deviation. Although no code is provided here for direct computation, Python libraries such as NumPy or SciPy make it straightforward:
@@ -154,7 +154,7 @@ print("MAD:", mad)
 
 **IQR** represents the range between the 75th percentile (Q3) and 25th percentile (Q1) of the dataset:
 
-![formula4]({{ site.baseurl }}/assets/images/vgraphs/f4.jpg)
+![formula4]({{ site.baseurl }}/assets/images/vgraphs/f4.jpg){: .center }
 
 IQR is extremely useful in identifying the spread of the middle 50% of data while ignoring the impact of outliers.
 
