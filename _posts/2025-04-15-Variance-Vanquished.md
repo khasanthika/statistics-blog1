@@ -1,6 +1,6 @@
 # Variance Vanquished: Demystifying Data Spread and Standard Deviation
 
-Understanding data isn’t limited to just knowing its central tendency (i.e., the mean or average). Equally important is grasping how data is spread out. Two of the most common measures to quantify this spread are **variance** and **standard deviation**. They reveal the hidden variability in datasets, which is crucial for risk assessment, forecasting, and decision making.
+Understanding data isn’t limited to just knowing its central tendency (i.e., the mean or average). Equally important is grasping how data is spread out. Two of the most common measures to quantify the spread of data are **variance** and **standard deviation**. They reveal the hidden variability in datasets, which is crucial for risk assessment, forecasting, and decision making.
 
 In this article, we explore these concepts in detail, present practical examples with graphs, discuss why they are important in risk assessment, explain their vulnerabilities in the presence of outliers, and introduce robust alternatives for skewed or outlier-prone distributions.
 
@@ -36,7 +36,7 @@ To better grasp these concepts, let’s look at some simulated examples. Assume 
 
 ### Example 1: Moderate Variability
 
-Imagine a dataset representing monthly sales figures that cluster tightly around the mean. Below is a Python snippet to generate a histogram illustrating this scenario:
+Imagine a dataset representing monthly sales figures that cluster tightly around the mean. 
 
 ![graph1]({{ site.baseurl }}/assets/images/vgraphs/g1.jpg)
 
