@@ -22,6 +22,8 @@ We typically visualize distributions using **histograms** (bars representing cou
 
 We'll use popular Python libraries via R's `reticulate` package. Make sure you have these Python libraries installed in the Python environment R is configured to use.
 
+![ch1]({{ site.baseurl }}/assets/images/distributions/1.jpg)
+
 ```python
 # Import necessary libraries
 import numpy as np
@@ -44,6 +46,8 @@ This is perhaps the most famous distribution. It's symmetric, bell-shaped, and u
     * **Examples:** Heights, blood pressure, measurement errors, IQ scores often approximate a normal distribution.
 
 * **Python Example:**
+
+![ch2]({{ site.baseurl }}/assets/images/distributions/2.jpg)
 
 ```python
 # Generate normally distributed data
@@ -81,6 +85,8 @@ Not all data is symmetrical. Sometimes, it piles up on one side and has a long "
 
 * **Python Example:**
 
+![ch3]({{ site.baseurl }}/assets/images/distributions/3.jpg)
+
 ```python
 # Generate right-skewed data (e.g., using exponential distribution)
 right_skewed_data = np.random.exponential(scale=1.0, size=1000) * 10
@@ -108,6 +114,8 @@ plt.show()
     * **Examples:** Age of death, scores on an easy test, asset depreciation.
 
 * **Python Example:**
+
+![ch4]({{ site.baseurl }}/assets/images/distributions/4.jpg)
 
 ```python
 # Generate left-skewed data (e.g., reflecting exponential data)
@@ -142,6 +150,8 @@ Sometimes, data shows two distinct peaks.
     * **Examples:** Restaurant rush hours (lunch peak and dinner peak), heights of a mixed group of adult men and women, test scores where some students found it very easy and others very hard.
 
 * **Python Example:**
+
+![ch5]({{ site.baseurl }}/assets/images/distributions/5.jpg)
 
 ```python
 # Generate bimodal data by combining two normal distributions
