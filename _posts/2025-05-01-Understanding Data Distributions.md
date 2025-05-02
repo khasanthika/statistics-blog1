@@ -1,11 +1,11 @@
 # Peeling Back the Layers: Understanding Data Distributions
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/image13.jpg" alt="Descriptive Alt Text" width="500">
+  <img src="{{ site.baseurl }}/assets/images/image13.jpg" alt="Descriptive Alt Text" width="600">
 </div>
 
 <p style="margin-top: 20px;">
-You've got data. Maybe it's customer purchase amounts, website visit durations, survey results, or scientific measurements. It often starts as a seemingly chaotic spreadsheet of numbers. But hidden within that chaos is a story, and one of the first steps to uncovering it is understanding its **distribution**.
+You've got data. Maybe it's customer purchase amounts, website visit durations, survey results, or scientific measurements. It often starts as a seemingly chaotic spreadsheet of numbers. But hidden within that chaos is a story, and one of the first steps to uncovering it is understanding its <strong>distribution</strong>.
 </p>
 
 What does "distribution" even mean? Simply put, it's a way to describe how the different values in your dataset are spread out or clustered together. Are most values clumped in the middle? Are they skewed towards one end? Are there multiple peaks? Visualizing the distribution is like creating a map of your data's landscape, revealing its key features.
