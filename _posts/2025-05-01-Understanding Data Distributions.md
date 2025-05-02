@@ -5,7 +5,7 @@
 </div>
 
 <p style="margin-top: 20px;">
-You've got data. Maybe it's customer purchase amounts, website visit durations, survey results, or scientific measurements. It often starts as a seemingly chaotic spreadsheet of numbers. But hidden within that chaos is a story, and one of the first steps to uncovering it is understanding its <strong>distribution</strong>.
+You've got data. Maybe it's customer purchase amounts, website visit durations, survey results, or scientific measurements. It often starts as a seemingly chaotic spreadsheet of numbers. But hidden within that chaos is a story, and one of the first steps to uncovering it is, understanding its <strong>distribution</strong>.
 </p>
 
 What does "distribution" even mean? Simply put, it's a way to describe how the different values in your dataset are spread out or clustered together. Are most values clumped in the middle? Are they skewed towards one end? Are there multiple peaks? Visualizing the distribution is like creating a map of your data's landscape, revealing its key features.
@@ -20,9 +20,7 @@ We typically visualize distributions using **histograms** (bars representing cou
 
 ### Tools We'll Use
 
-We'll use popular Python libraries via R's `reticulate` package. Make sure you have these Python libraries installed in the Python environment R is configured to use.
-
-![ch1]({{ site.baseurl }}/assets/images/distributions/1.jpg)
+We'll use several popular Python libraries for this. Make sure you have these Python libraries installed and ready to use.
 
 ```python
 # Import necessary libraries
@@ -47,7 +45,7 @@ This is perhaps the most famous distribution. It's symmetric, bell-shaped, and u
 
 * **Python Example:**
 
-![ch2]({{ site.baseurl }}/assets/images/distributions/2.jpg)
+![ch1]({{ site.baseurl }}/assets/images/distributions/1.jpg)
 
 ```python
 # Generate normally distributed data
@@ -85,7 +83,7 @@ Not all data is symmetrical. Sometimes, it piles up on one side and has a long "
 
 * **Python Example:**
 
-![ch3]({{ site.baseurl }}/assets/images/distributions/3.jpg)
+![ch2]({{ site.baseurl }}/assets/images/distributions/2.jpg)
 
 ```python
 # Generate right-skewed data (e.g., using exponential distribution)
@@ -115,7 +113,7 @@ plt.show()
 
 * **Python Example:**
 
-![ch4]({{ site.baseurl }}/assets/images/distributions/4.jpg)
+![ch3]({{ site.baseurl }}/assets/images/distributions/3.jpg)
 
 ```python
 # Generate left-skewed data (e.g., reflecting exponential data)
@@ -138,7 +136,7 @@ plt.legend()
 plt.show()
 ```
 
-* **Dealing with Skewness and Outliers:** When data is skewed, the mean can be misleading. The **median** often becomes a better representation of the "typical" value because it's *robust* to outliers (not easily affected by extreme values). Similarly, while standard deviation measures spread, the **Interquartile Range (IQR)** – the range between the 25th percentile (Q1) and 75th percentile (Q3) – is a robust measure of spread for skewed data. Skewness also violates the normality assumption of some statistical tests.
+**Dealing with Skewness and Outliers:** When data is skewed, the mean can be misleading. The **median** often becomes a better representation of the "typical" value because it's *robust* to outliers (not easily affected by extreme values). Similarly, while standard deviation measures spread, the **Interquartile Range (IQR)** – the range between the 25th percentile (Q1) and 75th percentile (Q3), is a robust measure of spread for skewed data. Skewness also violates the normality assumption of some statistical tests.
 
 ## 3. Bimodal Distribution (Two Peaks)
 
@@ -151,7 +149,7 @@ Sometimes, data shows two distinct peaks.
 
 * **Python Example:**
 
-![ch5]({{ site.baseurl }}/assets/images/distributions/5.jpg)
+![ch4]({{ site.baseurl }}/assets/images/distributions/4.jpg)
 
 ```python
 # Generate bimodal data by combining two normal distributions
@@ -188,6 +186,8 @@ In this distribution, all outcomes within a certain range are equally likely.
     * **Examples:** Rolling a fair six-sided die (each number 1-6 has an equal 1/6 chance), random number generators producing numbers within a specific range.
 
 * **Python Example:**
+
+![ch5]({{ site.baseurl }}/assets/images/distributions/5.jpg)
 
 ```python
 # Generate uniformly distributed data
