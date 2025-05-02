@@ -1,7 +1,7 @@
 # Peeling Back the Layers: Understanding Data Distributions
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/image12.jpg" alt="Descriptive Alt Text" width="500">
+  <img src="{{ site.baseurl }}/assets/images/image13.jpg" alt="Descriptive Alt Text" width="500">
 </div>
 
 <p style="margin-top: 20px;">
