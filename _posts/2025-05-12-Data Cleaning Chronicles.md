@@ -12,7 +12,7 @@ In today's data-saturated world, the ability to extract actionable insights from
 The very first step in any data cleaning endeavor is to meticulously identify inconsistencies. Think of it as detective work, where you're hunting down the culprits that could sabotage your analysis. These inconsistencies can appear in a multitude of forms:
 
 * **Missing values:** These are the gaps in your data, where information is simply absent. Imagine a customer database where some users haven't provided their email addresses. Missing values can lead to skewed analysis if not addressed properly.
-* **Outliers:** These are the rebels of your dataset – data points that significantly deviate from the norm. A classic example is a dataset of salaries where one entry is drastically higher than the rest due to a data entry error. Outliers can distort statistical measures and give a false impression of your data.
+* **Outliers:** These are the rebels of your dataset, data points that significantly deviate from the norm. A classic example is a dataset of salaries where one entry is drastically higher than the rest due to a data entry error. Outliers can distort statistical measures and give a false impression of your data.
 * **Duplicate entries:** Redundant data points, like having the same customer listed twice in your database, can skew your analysis, making it seem like you have more data than you actually do.
 * **Incorrect data types:** This is when data is stored in the wrong format. For example, numbers might be stored as text, which would prevent you from performing mathematical operations on them.
 * **Inconsistent formatting:** Variations in how data is represented can cause headaches. Think of date formats: some might be MM/DD/YYYY, while others are DD/MM/YYYY. This inconsistency needs to be resolved for proper analysis.
@@ -51,7 +51,7 @@ Data cleaning isn't just a tedious chore; it's the bedrock of sound data analysi
 Let's revisit our Python example, but this time, we'll dive a little deeper and add a visualization:
 
 ```python
-# Note: The code below is from the provided text.
+# Note: The code below is one example.
 # Running it will generate output and plots based on this specific cleaning logic.
 import pandas as pd
 import numpy as np
@@ -105,7 +105,7 @@ plt.show()
 ```
 ![ch2]({{ site.baseurl }}/assets/images/dclean_graphs/2.jpg)
 
-**Provided Output:**
+**Outputs:**
 
 ```text
 Data without cleaning:
@@ -156,7 +156,7 @@ While the core techniques are vital, several other factors significantly impact 
 
 1.  **The Power of Domain Knowledge:** Understanding the *context* of your data is invaluable. If you're cleaning weather data, knowing typical temperature ranges helps identify sensor errors versus actual extreme weather. Cleaning medical data requires understanding plausible values for heart rate. This context guides decisions about what constitutes an error or outlier.
 2.  **It's Often an Iterative Cycle:** Data cleaning isn't always a straight path. You might perform initial cleaning, start analyzing, and then realize there are deeper issues. For example, you might clean individual address fields, but later analysis reveals inconsistencies between city, state, and zip code combinations, forcing you to revisit and refine the cleaning steps. Be prepared to loop back.
-3.  **Automation for Efficiency:** For tasks you perform repeatedly (like cleaning monthly sales reports), automating the cleaning process saves immense time and ensures consistency. Simple scripts (e.g., in Python) can automatically apply the same set of rules – like standardizing date formats or removing known error codes – every time new data comes in.
+3.  **Automation for Efficiency:** For tasks you perform repeatedly (like cleaning monthly sales reports), automating the cleaning process saves immense time and ensures consistency. Simple scripts (e.g., in Python) can automatically apply the same set of rules, like standardizing date formats or removing known error codes every time new data comes in.
 4.  **Prevention is Better Than Cure (Data Governance):** The best way to deal with dirty data is to prevent it in the first place. Good **data governance** practices, like using dropdown menus instead of free-text fields for entries like 'Country' or implementing validation rules directly in data entry forms, can significantly improve initial data quality and reduce later cleaning efforts.
 5.  **Dealing with Scale (Big Data):** Cleaning very large datasets presents unique challenges. You might not be able to load the entire dataset into memory at once. Techniques like processing the data in smaller **chunks** or using specialized tools designed for distributed computing become necessary.
 6.  **Ethical Awareness:** Cleaning decisions can have ethical implications. How you impute missing demographic data could introduce bias if not done thoughtfully. Removing outliers related to specific groups might skew results. It's also crucial to handle Personally Identifiable Information (PII) responsibly, often requiring anonymization or removal (e.g., blurring faces in images, removing names/addresses) as part of the cleaning process. Documenting your choices is important for transparency.
