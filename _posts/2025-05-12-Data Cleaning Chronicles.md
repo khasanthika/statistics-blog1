@@ -1,7 +1,7 @@
 # Data Cleaning Chronicles: Transforming Raw Numbers into Reliable Insights
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/image13.jpg" alt="Descriptive Alt Text" width="600">
+  <img src="{{ site.baseurl }}/assets/images/image14.jpg" alt="Descriptive Alt Text" width="600">
 </div>
 
 <p style="margin-top: 20px;">
