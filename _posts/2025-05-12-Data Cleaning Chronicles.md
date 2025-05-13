@@ -78,7 +78,10 @@ plt.figure(figsize=(8, 4))
 plt.boxplot(df_numeric_initial.dropna(), vert=False)
 plt.title('Boxplot of Age Before Full Cleaning (Numeric Values Only)')
 plt.show()
+```
+![ch1]({{ site.baseurl }}/assets/images/dclean_graphs/1.jpg)
 
+```python
 # --- Cleaning the data ---
 df['Age'] = pd.to_numeric(df['Age'], errors='coerce')  # Convert to numeric, errors become NaN
 # Handle potential case where all values become NaN after coercion
@@ -100,6 +103,7 @@ plt.boxplot(df['Age'], vert=False)
 plt.title('Boxplot of Age After Cleaning')
 plt.show()
 ```
+![ch2]({{ site.baseurl }}/assets/images/dclean_graphs/2.jpg)
 
 **Provided Output:**
 
